@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./img/56cdae63c14b6153137135d0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.osnova {
+    max-width: 700px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.form {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: rgb(250, 250, 250);
+    border-radius: 35px 0px 0px 35px;
+}
+.center {
+    color: rgb(78, 67, 67);
+    margin: 43px 0px 30px 33%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.kr {
+    border-radius: 50%;
+    border: 1px solid rgb(36, 35, 35);
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin: 6%;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.kr:hover {
+    background-color: rgb(33, 192, 192);
+}
+.krugi {
+    margin: -30px 0px 30px 20%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 12%;
+}
+.f {
+    text-align: center;
+}
+.text-van {
+    margin: -15px 0px 20px 11%;
+}
+.text {
+    color: rgb(27, 25, 25);
+    margin: 0px 20%;
+    font-size: 13px;
+}
+.form-a {
+    margin: 0px 0px 16px 26%;
+}
+.email-phone {
+    border: none;
+    background-color: rgb(236, 236, 236);
+    padding: 8px 15px 8px 15px;
+}
+.form-text {
+    margin: 15px 0px 0px 25%;
+}
+.text-a {
+    font-size: 15px;
+    margin: 20px 0px 13px 28px;
+}
+.text-b {
+    font-size: 17px;
+    margin: 10px 0px 13px 28px;
+}
+p {
+    color: rgb(43, 39, 39);
+}
+.otvet {
+    margin: 70px 0px 0px 30%;
+}
+button {
+    border: none;
+    border-radius: 35px;
+    background: rgb(0, 247, 255);
+    padding: 10px 50px 10px 50px;
+    color: rgb(255, 255, 255);
+}
+.blue {
+    background: rgb(0, 255, 255);
+    width: 40%;
+    height: 100vh;
+    border-radius: 0px 35px 35px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.two {
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.blue-h {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 0px 0px 20px 70px;
+    font-weight: 900;
+}
+.blue-text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+.strelka {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    outline: none;
+    margin: 30px 0px 0px 33%;
+    justify-content: center;
+    align-items: center;
+}
+.fa-long-arrow-left {
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 767px) {
+    .osnova {
+        max-width: 400px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .form {
+        border-radius: 35px 35px 0px 0px;
+        margin: 0px auto;
+        width: 70%;
+    }
+    .van {
+        margin: 10px auto;
+    }
+    .center {
+        margin: 0px auto;
+        font-size: 27px;
+    }
+    .krugi {
+        margin: 0px 0px 0px 30px;
+    }
+    .text-van {
+        margin: 10px;
+    }
+    .forma {
+        margin: 0px auto;
+    }
+    .form-a {
+        margin: 10px auto;
+    }
+    .form-text {
+        margin: 0px auto;
+    }
+    .otvet {
+        margin: 20px;
+    }
+    .blue {
+        margin: 0px auto;
+        border-radius: 0px 0px 35px 35px;
+        width: 70%;
+    }
+    .two {
+        margin: 0px auto;
+    }
+}
